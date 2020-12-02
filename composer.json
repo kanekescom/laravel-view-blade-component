@@ -1,0 +1,49 @@
+{
+    "name": "kanekescom/laravel-view-blade-component",
+    "type": "library",
+    "description": "Laravel Eloquent Url Presenter Package",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Achmad Hadi Kurnia",
+            "email": "imachmadhadikurnia@gmail.com",
+            "homepage": "https://achmadhadikurnia.com"
+        }
+    ],
+    "homepage": "https://github.com/kanekescom/laravel-view-blade-component",
+    "keywords": [
+        "Laravel",
+        "ViewBladeComponent"
+    ],
+    "require": {
+        "illuminate/support": "~7|~8",
+        "kanekescom/laravel-helperia": "^1.0",
+        "kanekescom/laravel-url-presenter": "^1.0"
+    },
+    "require-dev": {
+        "phpunit/phpunit": "~9.0",
+        "orchestra/testbench": "~5|~6"
+    },
+    "autoload": {
+        "psr-4": {
+            "Kanekescom\\LaravelViewBladeComponent\\": "src/"
+        }
+    },
+    "autoload-dev": {
+        "psr-4": {
+            "Kanekescom\\LaravelViewBladeComponent\\Tests\\": "tests"
+        }
+    },
+    "extra": {
+        "laravel": {
+            "providers": [
+                "Kanekescom\\LaravelViewBladeComponent\\ViewBladeComponentServiceProvider"
+            ]
+        }
+    },
+    "config": {
+        "sort-packages": true
+    },
+    "minimum-stability": "dev",
+    "prefer-stable": true
+}
