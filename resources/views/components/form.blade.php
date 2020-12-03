@@ -10,7 +10,7 @@
             <script type="text/javascript">
                 function checkForm(form) {
                     form.querySelector('button[type="submit"]').disabled = true;
-                    form.querySelector('button[type="submit"]').innerHTML = '{{ $processingLabel }}';
+                    form.querySelector('button[type="submit"]').innerHTML = '{!! $processingLabel !!}';
 
                     return true;
                 }
