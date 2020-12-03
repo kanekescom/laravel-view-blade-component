@@ -71,7 +71,6 @@ class ViewBladeComponentServiceProvider extends ServiceProvider
         Blade::component('option', FormSelectOption::class);
         Blade::component('select', FormSelect::class);
         Blade::component('textarea', FormTextarea::class);
-        Blade::componentNamespace('Kanekescom\\LaravelViewBladeComponent\\View\\Components', 'tag');
     }
 
     /**
