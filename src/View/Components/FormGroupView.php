@@ -44,7 +44,7 @@ class FormGroupView extends Component
      * @return void
      */
     public function __construct(
-        $name,
+        $name = null,
         $label = null,
         $labelWidth = 'col-md-4',
         $formWidth = 'col-md-6'

@@ -1,7 +1,7 @@
 <div {{ $attributes->merge([
     'class' => 'form-group row',
     ]) }}>
-    <label for="{{ $name }}" class="{{ $labelWidth }} col-form-label text-md-right">
+    <label @if ($name) for="{{ $name }}" @endif class="{{ $labelWidth }} col-form-label text-md-right">
         {{ $label }}
     </label>
 

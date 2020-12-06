@@ -9,7 +9,6 @@
         @if ($header)
             <div class="card-header {{ $headerClass }}">
                 {!! $header !!}
-                {!! $headerToolSlot ?? '' !!}
             </div>
         @endif
 
