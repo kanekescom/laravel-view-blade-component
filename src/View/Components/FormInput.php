@@ -99,7 +99,7 @@ class FormInput extends Component
             return $this->value = $value ?? $this->oldValue;
         }
 
-        return $this->value = old($this->name, $value);
+        return $this->value = old($this->name, $this->defaultValue ? $this->defaultValue : $value);
     }
 
     /**
